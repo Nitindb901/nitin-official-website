@@ -1,4 +1,4 @@
-	# 📊 Nitin Dubey — Data Analyst & MIS Coordinator
+# 📊 Nitin Dubey — Data Analyst & MIS Coordinator
 
 ![Portfolio Banner](Profffessional%20Photo%20with%20all%20the%20Details.png)
 
