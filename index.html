@@ -11,25 +11,50 @@
             box-sizing: border-box;
         }
 
-        /* Stylish data analytics dashboard background */
-        body {
+        body, html {
+            height: 100%;
             font-family: Arial, sans-serif;
-            height: 100vh;
-            background: url('dashboard_bg.jpg') no-repeat center center fixed;
-            background-size: cover;
             color: white;
-            position: relative;
+            overflow: hidden;
         }
 
-        /* Dark overlay */
-        body::before {
-            content: "";
+        /* Slideshow container */
+        .slideshow {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .slideshow img {
             position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            animation: fade 24s infinite;
+        }
+
+        .slideshow img:nth-child(1) { animation-delay: 0s; }
+        .slideshow img:nth-child(2) { animation-delay: 6s; }
+        .slideshow img:nth-child(3) { animation-delay: 12s; }
+        .slideshow img:nth-child(4) { animation-delay: 18s; }
+
+        @keyframes fade {
+            0%, 25%, 100% { opacity: 0; }
+            5%, 20% { opacity: 1; }
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.55);
+            background: rgba(0, 0, 0, 0.55);
             z-index: 0;
         }
 
@@ -38,17 +63,21 @@
             z-index: 1;
             text-align: center;
             padding: 30px;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         h1 {
             font-size: 3rem;
             margin-bottom: 10px;
+            text-shadow: 2px 2px 5px black;
         }
 
         h2 {
             font-size: 1.5rem;
             margin-bottom: 30px;
             font-weight: normal;
+            text-shadow: 1px 1px 3px black;
         }
 
         .links {
@@ -69,7 +98,7 @@
         }
 
         a:hover {
-            background: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.7);
             color: black;
         }
 
@@ -80,6 +109,19 @@
     </style>
 </head>
 <body>
+
+    <!-- Slideshow Background -->
+    <div class="slideshow">
+        <img src="bg1.jpg" alt="Background 1">
+        <img src="bg2.jpg" alt="Background 2">
+        <img src="bg3.jpg" alt="Background 3">
+        <img src="bg4.jpg" alt="Background 4">
+    </div>
+
+    <!-- Dark Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Main Content -->
     <div class="container">
         <h1>Nitin Dubey</h1>
         <h2>Data Analyst & MIS Coordinator</h2>
@@ -94,5 +136,6 @@
             <a href="mailto:nitindb901@gmail.com">📧 Email Me</a>
         </div>
     </div>
+
 </body>
 </html>
