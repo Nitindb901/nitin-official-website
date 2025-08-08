@@ -1,9 +1,9 @@
 # 📊 Nitin Dubey — Data Analyst & MIS Coordinator
 
-![Portfolio Banner](dashboard_bg.jpg)
+![Portfolio Banner](Profffessional%20Photo%20with%20all%20the%20Details.png)
 
-Welcome to my **official portfolio website** repository.  
-Here you can explore my **CV, resume, and professional work** in **Data Analytics, MIS, and Dashboard Development**.
+Welcome to my **official portfolio repository**.  
+Here you can explore my **resume, portfolios, and project work** in **Data Analytics, MIS, and Power BI**.
 
 ---
 
@@ -11,13 +11,12 @@ Here you can explore my **CV, resume, and professional work** in **Data Analytic
 
 | 📌 Section | 🔗 Link |
 |------------|--------|
-| 📄 **View CV** | [Open CV](Updated%20Cv%20Nitin%20Dubey%20Data%20Analyst%20MIS%20Coordinator.pdf.pdf) |
-| 📊 **View Resume** | [Open Resume](Nitin_Dubey_Portfolio_With_Dashboards.pdf) |
+| 📄 **Resume** | [View Resume](Nitin_Dubey_Portfolio_With_Dashboards.pdf) |
+| 📝 **CV** | [View CV](Updated%20Cv%20Nitin%20Dubey%20Data%20Analyst%20MIS%20Coordinator.pdf.pdf) |
 | 💻 **GitHub Profile** | [Visit GitHub](https://github.com/Nitindb901) |
-| 🔗 **LinkedIn Profile** | [Visit LinkedIn](https://www.linkedin.com/in/nitin-dubey-48249aa1) |
-| 💬 **WhatsApp (Primary)** | [Chat Now](https://wa.me/917772011682) |
-| 📱 **WhatsApp (Alternate)** | [Chat Now](https://wa.me/918462011346) |
-| 📧 **Email Me** | [Send Email](mailto:nitindb901@gmail.com) |
+| 🔗 **LinkedIn** | [View LinkedIn Profile](https://www.linkedin.com/in/nitin-dubey-48249aa1) |
+| 💬 **WhatsApp** | [Chat Now](https://wa.me/917772011682) |
+| 📧 **Email** | [Send Email](mailto:nitindb901@gmail.com) |
 
 ---
 
@@ -40,11 +39,9 @@ I am a **Data Analyst & MIS Coordinator** with expertise in:
 ---
 
 ## 📢 Contact
-💬 WhatsApp: **+91 7772011682** / **+91 8462011346**  
+💬 WhatsApp: **+91 7772011682**  
 📧 Email: **[nitindb901@gmail.com](mailto:nitindb901@gmail.com)**  
-🔗 LinkedIn: **[linkedin.com/in/nitin-dubey-48249aa1](https://www.linkedin.com/in/nitin-dubey-48249aa1)**
+🔗 LinkedIn: **[www.linkedin.com/in/nitin-dubey-48249aa1](https://www.linkedin.com/in/nitin-dubey-48249aa1)**
 
 ---
-
-⭐ **Tip:** This repository is directly linked to my [Live Portfolio Website](https://nitindb901.github.io/nitin-official-website/).  
-Click the links above to explore my work or connect with me.
+⭐ **Tip**: Click the links above to directly access my resume or contact me.
