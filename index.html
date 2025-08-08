@@ -44,7 +44,8 @@
             width: 140px;
             height: 140px;
             border-radius: 50%;
-            object-fit: cover;
+            object-fit: contain;
+            background: #fff;
             border: 3px solid #fff;
         }
         h1 {margin: 15px 0 5px;}
@@ -64,15 +65,12 @@
     </style>
 </head>
 <body>
-
     <div class="slideshow-bg" id="slideshow">
         <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1526379095098-8466c881aa2b');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1534759846116-fecb7a49320d');"></div>
-        <!-- Add or change image URLs—choose high-quality, data/science/analytics themed images -->
     </div>
-
     <div class="container">
         <img src="NItin dubey Proffessional Photo.jpg" alt="Nitin Dubey" class="profile-img">
         <h1>Nitin Dubey</h1>
@@ -84,17 +82,14 @@
         <a href="https://wa.me/918462011346" class="btn" target="_blank">💬 WhatsApp 2</a>
         <a href="mailto:nitindb901@gmail.com" class="btn">📧 Email</a>
     </div>
-
     <script>
-        // Simple JS slideshow for background
         const slides = document.querySelectorAll('.slide');
         let current = 0;
         setInterval(() => {
             slides[current].classList.remove('active');
             current = (current + 1) % slides.length;
             slides[current].classList.add('active');
-        }, 4000); // Slides change every 4 seconds
+        }, 4000);
     </script>
-
 </body>
 </html>
