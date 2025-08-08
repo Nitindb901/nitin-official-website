@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Nitin Dubey | Data Analyst & MIS Coordinator</title>
     <style>
-        * {margin: 0; padding: 0; box-sizing: border-box;}
+        * {
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
             height: 100vh;
@@ -47,9 +49,15 @@
             object-fit: contain;
             background: #fff;
             border: 3px solid #fff;
+            display: block;
+            margin: 0 auto 15px auto;
         }
-        h1 {margin: 15px 0 5px;}
-        p {margin-bottom: 20px;}
+        h1 {
+            margin: 0 0 5px 0;
+        }
+        p {
+            margin-bottom: 20px;
+        }
         .btn {
             display: inline-block;
             margin: 8px;
@@ -61,20 +69,25 @@
             font-weight: bold;
             transition: background 0.3s;
         }
-        .btn:hover {background: #ff9900;}
+        .btn:hover {
+            background: #ff9900;
+        }
     </style>
 </head>
 <body>
+
     <div class="slideshow-bg" id="slideshow">
         <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1526379095098-8466c881aa2b');"></div>
         <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1534759846116-fecb7a49320d');"></div>
     </div>
+
     <div class="container">
-        <img src="NItin dubey Proffessional Photo.jpg" alt="Nitin Dubey" class="profile-img">
+        <img src="NItin dubey Proffessional Photo.jpg" alt="Nitin Dubey" class="profile-img" />
         <h1>Nitin Dubey</h1>
         <p>Data Analyst & MIS Coordinator</p>
+        
         <a href="Updated Cv Nitin Dubey Data Analyst MIS Coordinator.pdf.pdf" class="btn" target="_blank">📄 View Resume</a>
         <a href="Nitin_Dubey_Portfolio_With_Dashboards.pdf" class="btn" target="_blank">📊 View Portfolio</a>
         <a href="https://www.linkedin.com/in/nitin-dubey-48249aa1" class="btn" target="_blank">🔗 LinkedIn</a>
@@ -82,6 +95,7 @@
         <a href="https://wa.me/918462011346" class="btn" target="_blank">💬 WhatsApp 2</a>
         <a href="mailto:nitindb901@gmail.com" class="btn">📧 Email</a>
     </div>
+
     <script>
         const slides = document.querySelectorAll('.slide');
         let current = 0;
@@ -91,5 +105,6 @@
             slides[current].classList.add('active');
         }, 4000);
     </script>
+
 </body>
 </html>
